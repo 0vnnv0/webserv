@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: monospace;
+  color: #1900f7;
+  background:
+    linear-gradient(135deg, #dadada 65%, #353535 100%),
+    url('https://images.unsplash.com/photo-1594255897691-9d1edad1ecfc?auto=format&fit=crop&q=80&w=735');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(218,218,218, 0.97);
+  border: 2px solid #0d0081;
+  border-radius: 18px;
+  padding: 40px 32px;
+  box-shadow: 0 0 20px #1900f7;
+  text-align: center;
+  width: 390px;
+  max-width: 90vw;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 36px #0d0081;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #0d0081;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.err-symbol {
+  font-size: 5rem;
+  animation: bounce 1.8s infinite alternate;
+  margin-bottom: 9px;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(-3px);}
+  100% { transform: translateY(6px);}
+}
+
+p {
+  font-size: 1.07rem;
+  margin-bottom: 34px;
+  color: #353535;
+}
+
+.go-back {
+  background: #0d0081;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 37px;
+  font-family: monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1px 8px #1900f7;
+  outline: none;
+  transition: background 0.2s;
+}
+
+.go-back:hover {
+  background: #1900f7;
+  color: #fff;
+}
