@@ -1,13 +1,5 @@
 # webserv
 
-Here is a comprehensive and structured `README.md` template in English for your 42 webserv project. You can copy and paste this into your repository and adjust the placeholders (like your name or specific implementation details) as needed.
-
----
-
-# webserv
-
-> *This is when you finally understand why a URL starts with HTTP.*
-
 **webserv** is a custom HTTP/1.1 server written from scratch in C++98. This project is part of the core curriculum at [42 School](https://42.fr/). The goal is to build a fully functional, non-blocking HTTP server inspired by NGINX, capable of handling multiple connections, parsing configuration files, serving static websites, and executing CGI scripts.
 
 ---
